@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/trybeTunes/static/css/main.46ff657c.css",
+    "main.js": "/trybeTunes/static/js/main.77dc4c7f.js",
+    "static/media/vinilVert.jpg": "/trybeTunes/static/media/vinilVert.23b970f990e971c8d4b6.jpg",
+    "static/media/backgroundGrey.jpg": "/trybeTunes/static/media/backgroundGrey.66eff523cdd001dbbc23.jpg",
+    "static/media/vinil.jpg": "/trybeTunes/static/media/vinil.721798be9e640315167e.jpg",
+    "static/media/headphone.jpg": "/trybeTunes/static/media/headphone.d9036c0a9c9f68cccc50.jpg",
+    "index.html": "/trybeTunes/index.html",
+    "main.46ff657c.css.map": "/trybeTunes/static/css/main.46ff657c.css.map",
+    "main.77dc4c7f.js.map": "/trybeTunes/static/js/main.77dc4c7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46ff657c.css",
+    "static/js/main.77dc4c7f.js"
+  ]
+}
