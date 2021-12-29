@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+
+body{
+    background: url("/src/components/images/backgroundGrey.jpg");
+    background-size:cover;
+    background-position:top;
+    background: cover;
+    height: 100%;
+    min-height: 100vh;
+}
+
+
+.album-selected{
+    text-align: center;
+}
+
+.imageAlbum img{
+    margin-top: 0%;
+    width: 150px;
+    height: 130px;
+}
+
+.container-album{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.container-info{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 75% 75% / 55%;
+    font-family: 'Teko', sans-serif;
+    font-size:large;
+    padding-bottom: 2vh;
+}
+
+.player-container{
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    height: 130px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    padding: 10px;
+}
+
+.favLabel{
+    padding-top: 2vh;
+    font-family: 'Teko', sans-serif;
+    font-size:large;
+}
+
+.page-favorites{
+    text-align: center;
+    color: rgb(110, 110, 110);
+}
+

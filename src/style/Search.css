@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+.page-search{
+    background: url("/src/components/images/headphone.jpg");
+    background-size:cover;
+    background-position:top;
+    background: cover;
+    height: 100%;
+    min-height: 100vh;
+}
+.search{
+    background-color: rgba(43, 50, 51, 0.877);
+    border-radius:30px ;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: 650px;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.315) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.171) 0px -3px 5px;
+}
+
+.searchDone{
+    background-color: rgba(43, 50, 51, 0.877);
+    border-radius:30px ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    height: 90px;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.315) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.171) 0px -3px 5px;
+    font-size: medium;
+}
+
+.search-h3{
+    margin-top: 10%;
+    color: white;
+    color: aliceblue;
+    font-size: 300%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.h3-done{
+    margin-top: 0%;
+    color: white;
+    color: aliceblue;
+    font-size: 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.search-input{
+    margin-top: 5%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    transition-duration: 0.6s;
+    text-transform: uppercase;
+}
+
+.search-inputDone{
+    margin-top: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    width: 277px;
+    height: 50px;
+    transition-duration: 0.6s;
+    text-transform: uppercase;
+}
+
+.search-button {
+    margin-top: 6%;
+    border: none;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    transition: 300ms;
+    width: 25%;
+    cursor: pointer;
+    background-color: rgba(224, 224, 224, 0.473);
+  }
+
+  .search-button:hover{
+    background-color: rgb(26, 28, 29);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .search-buttonDone {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    transition: 300ms;
+    height: 25px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgba(224, 224, 224, 0.473);
+  }
+  .search-buttonDone:hover{
+    background-color: rgb(26, 28, 29);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  @media screen and (max-width: 700px) {
+    .search{
+      background-color: rgba(43, 50, 51, 0.877);
+      border-radius:30px ;
+      align-items: center;
+      text-align: center;
+      display:flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 7%;
+      height: 650px;
+      width: 80%;
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.315) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.171) 0px -3px 5px;
+  }
+  
+  .searchDone{
+      background-color: rgba(43, 50, 51, 0);
+      border-radius:30px ;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction:column;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0%;
+      height: 90px;
+      width: 95%;
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.308) 0px -12px 30px, rgba(0, 0, 0, 0.315) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.171) 0px -3px 5px;
+      font-size: medium;
+  }
+  
+  .search-h3{
+      margin-top: 27%;
+      color: white;
+      color: aliceblue;
+      font-size: 250%;
+      font-family:monospace;
+      text-align: center;
+  }
+  .h3-done{
+      margin-top: 0%;
+      color: white;
+      color: aliceblue;
+      font-size: 0px;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+  }
+  .search-input{
+      margin-top: 7%;
+      background-color: white;
+      border: none;
+      border-radius: 30px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      width: 80%;
+      height: 45px;
+      transition-duration: 0.6s;
+      text-transform: uppercase;
+  }
+  
+  .search-inputDone{
+      margin-top: 6%;
+      background-color: white;
+      border: none;
+      border-radius: 30px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      width: 197px;
+      height: 37px;
+      transition-duration: 0.6s;
+      text-transform: uppercase;
+  }
+  
+  .search-button {
+      margin-top: 10%;
+      border: none;
+      border-radius: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      padding: 8px;
+      transition: 300ms;
+      width: 40%;
+      cursor: pointer;
+      background-color: rgba(224, 224, 224, 0.473);
+    }
+  
+    .search-button:hover{
+      background-color: rgb(26, 28, 29);
+      color: rgb(255, 255, 255);
+      font-weight: 800;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .search-buttonDone {
+      margin-top: 3%;
+      margin-bottom: 2%;
+      border: none;
+      border-radius: 20px;
+      color: rgba(0, 0, 0, 0.5);
+      padding: 8px;
+      transition: 300ms;
+      height: 25px;
+      width: 150px;
+      cursor: pointer;
+      background-color: rgba(224, 224, 224, 0);
+    }
+    .search-buttonDone:hover{
+      height: 25px;
+      width: 150px;
+      background-color: rgb(26, 28, 29);
+      color: rgb(255, 255, 255);
+      font-weight: 800;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+  /* -----------------FORMS---------------- */
+
+  .album-cards{
+    padding-top: 1vh;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .album-card{
+    text-align: center;
+    display: inline-block;
+}
+  .album-names{
+    color: rgb(201, 201, 201);
+     position: relative;
+     text-align: center;
+     padding-top: 10px;
+     font-family: 'Teko', sans-serif;
+     font-size: x-large;
+  }
+  .image img {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+
+  .album{
+    background-color: #00000070;
+    box-shadow: 0 2px 4px -4px rgba(0, 0, 0, 0.541), 0 50px 45px -20px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    height: 220px;
+    overflow:hidden;
+    position: relative;
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    transition-duration: 1s;
+  }
+
+  .album:hover{
+    height: 230px;
+    width: 230px;
+}
+
+.result{
+    color: rgb(201, 201, 201);
+    position: relative;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, 0.144);
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
